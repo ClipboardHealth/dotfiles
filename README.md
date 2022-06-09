@@ -9,10 +9,10 @@ Your own dotfiles repo should be private, since it could contain secret informat
 3. [Duplicate the repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository):
 ```
 git clone --bare git@github.com:ClipboardHealth/dotfiles.git
-cd dotfiles
-git push --mirror git@github.com:YOUR_USERNAME/dotfiles.git
+cd dotfiles.git
+git push --mirror git@github.com:YOUR_USERNAME/YOUR_DOTFILES_REPO.git
 cd .. && rm -rf dotfiles.git
-git clone git@github.com:YOUR_USERNAME/dotfiles.git
+git clone git@github.com:YOUR_USERNAME/YOUR_DOTFILES_REPO.git
 code dotfiles
 ```
 ## Add your SSH keys
